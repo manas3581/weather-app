@@ -4,11 +4,16 @@ import searchIcon from "../public/search.png"
 import axios from "axios"
 import weather from './data'
 import WeatherCard from './component/WeatherCard'
+import Background from "../public/background.jpg"
 
 const Wrapper = styled.div`
 width: 100;
 height: 100%;
 display: flex;
+background-image: url(Background);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+ 
 flex-direction: column;
 
 
