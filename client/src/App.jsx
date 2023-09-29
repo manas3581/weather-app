@@ -24,7 +24,7 @@ const Top = styled.div`
 margin: 2rem;
 display: flex;
 justify-content: space-between;
-@media screen and (max-width:700px) {
+@media screen and (max-width:1400px) {
    margin: 10px;
   }
 
@@ -107,6 +107,7 @@ function App() {
 
   // Handiling Api
   const handleClick = ()=>{
+    // axios.post(`http://127.0.0.1/weather`,{city:place.city})  Use this When Running on Local Machine 
     axios.post("https://omnify-backend.azurewebsites.net/weather",{city:place.city} )
     .then((response)=>{
       setData(response.data)

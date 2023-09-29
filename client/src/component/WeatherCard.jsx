@@ -25,6 +25,12 @@ position: relative;
     height: 50vh;
     margin-top: 5rem;
   }
+  @media screen and (max-width:1400px) {
+    
+    margin: 10px;
+    height: 50vh;
+    margin-top: 5rem;
+  }
 `;
 
 const Name = styled.div`
@@ -70,6 +76,10 @@ width: 360px;
     width: 200px;
     top: -70px;
     right: -40px;
+  }
+  @media screen and (max-width:1400px) {
+    width: 280px;
+    
   }
 `
 
