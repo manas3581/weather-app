@@ -1,6 +1,12 @@
-# Omnify-Assesmnent By Kanishkkashyap840@gmail.om
+# Omnify-Assesmnent By Kanishkkashyap840@gmail.com
 
-Description of your project goes here.
+## Make Sure While Running on Local Host 
+```
+change the Code in App.js Line 110. If You Face Cors Error.
+
+```
+
+[Live Link](https://omnify-assesment.vercel.app/)
 
 ## Table of Contents
 - [Client](#client)
