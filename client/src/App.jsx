@@ -132,7 +132,7 @@ function App() {
      <Wrapper>
     <Top>
       <Logo> Omnify Weather App</Logo>
-      <Logo>Assement By Kanishk kashyap</Logo>
+
     </Top>
     <Middle>
       <SearchDiv>

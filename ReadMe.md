@@ -1,4 +1,4 @@
-# Omnify-Assesmnent By Kanishkkashyap840@gmail.com
+
 
 ## Make Sure While Running on Local Host 
 ```
